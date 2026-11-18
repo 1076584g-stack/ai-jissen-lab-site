@@ -1,2 +1,108 @@
 <!doctype html>
-<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="AI実践ラボ。AI活用・業務効率化・開発の試行錯誤を発信しています。"><title>AI実践ラボ | AI活用と業務効率化</title><style>:root{font-family:system-ui,-apple-system,'Noto Sans JP',sans-serif;color:#172438;background:#f5f7fb}*{box-sizing:border-box}body{margin:0}header{background:#10233f;color:white;padding:64px 20px}main,header>div,footer>div{max-width:860px;margin:auto}h1{font-size:clamp(2rem,6vw,3.2rem);margin:10px 0}h2{font-size:1.4rem}p{line-height:1.9}main{padding:28px 20px 70px}.tag{letter-spacing:.1em;color:#9fd8ff}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}.card{background:white;border:1px solid #dce3ee;border-radius:16px;padding:22px}.card p{color:#43536a}a{color:#1764b5}a:focus-visible{outline:3px solid #ffb74d}footer{background:#e9edf4;padding:25px 20px;color:#4b596d}.note{font-size:.92rem;color:#536277}</style></head><body><header><div><div class="tag">AI JISSEN LAB</div><h1>AI実践ラボ</h1><p>AI活用・業務効率化・開発の試行錯誤を発信しています。</p></div></header><main><section><h2>取り組んでいること</h2><div class="grid"><article class="card"><h3>Excel・CSVの業務効率化</h3><p>定型的な集計作業を効率化するツールの制作・検証に取り組んでいます。</p><p class="note">販売ページへのリンクは公開URL確認後に追加します。</p></article><article class="card"><h3>AIを使った開発</h3><p>AIツールを活用したアプリ開発や、作業手順の改善に取り組んでいます。</p></article><article class="card"><h3>家族のためのAI活用</h3><p>日常生活で役立つAI活用の方法を試しています。</p></article></div></section><section><h2>発信を見る</h2><p><a href="https://note.com/ai_army" rel="noopener noreferrer">noteの記事を見る</a></p><p>Threadsやココナラへのリンクは、正式URLを確認後に掲載します。</p></section><section><h2>このサイトについて</h2><p>制作・検証中の取り組みを紹介するページです。記載内容は成果や効果を保証するものではありません。</p></section></main><footer><div>© AI実践ラボ</div></footer></body></html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI実践ラボ | AI活用と業務効率化</title>
+  <meta name="description" content="Excel・CSVの業務効率化、AIを使った開発、家族のためのAI活用。AI実践ラボの試行錯誤を紹介します。">
+  <style>
+    :root { font-family:"Bricolage Grotesque","Yu Gothic UI","Hiragino Kaku Gothic ProN",Meiryo,sans-serif; color:#201a39; background:#fffaf0; --ink:#201a39; --purple:#563a9f; --lavender:#dfd4ff; --yellow:#ffe16a; --mint:#c7efdb; }
+    *,*::before,*::after { box-sizing:border-box; }
+    body { margin:0; line-height:1.75; overflow-wrap:anywhere; }
+    a { color:var(--purple); text-underline-offset:.2em; }
+    a:focus-visible,summary:focus-visible { outline:3px solid #2457cd; outline-offset:5px; }
+    h1,h2,h3,p { margin:0; }
+    h1,h2,h3 { line-height:1.2; }
+    .wrap { width:min(calc(100% - 2rem), 68rem); margin-inline:auto; }
+    .skip { position:absolute; z-index:2; top:.5rem; left:.5rem; padding:.55rem 1rem; background:white; transform:translateY(-150%); }
+    .skip:focus { transform:none; }
+    header { border-bottom:2px solid var(--ink); background:#fffaf0; }
+    header .wrap { min-height:70px; display:flex; justify-content:space-between; align-items:center; gap:.1rem 1rem; flex-wrap:wrap; padding-block:.45rem; }
+    .brand { display:flex; align-items:center; gap:.6rem; font-weight:900; }
+    .brand span { display:grid; place-items:center; width:2rem; height:2rem; border:2px solid var(--ink); border-radius:50%; background:var(--yellow); font-size:1.15rem; line-height:1; }
+    nav { display:flex; flex-wrap:wrap; gap:0 1.15rem; }
+    nav a { display:inline-flex; align-items:center; min-height:44px; font-size:.9rem; color:var(--ink); }
+    .hero { padding-block:clamp(2.8rem,7.5vw,6.3rem); border-bottom:2px solid var(--ink); background-color:var(--lavender); background-image:radial-gradient(#7760ac55 1px,transparent 1px); background-size:18px 18px; }
+    .hero-layout { display:grid; grid-template-columns:1.15fr 1fr; gap:clamp(1.6rem,6vw,4.5rem); align-items:center; }
+    .product { margin-bottom:.55rem; font-size:.95rem; font-weight:850; letter-spacing:.065em; color:#4a327c; }
+    h1 { font-size:clamp(2.2rem,5.6vw,4.8rem); font-weight:900; letter-spacing:-.07em; line-height:1.16; }
+    h1 span { display:block; color:#4a327c; }
+    .lead { margin:1.1rem 0 1.5rem; max-width:35rem; font-weight:600; }
+    .button { display:inline-flex; align-items:center; justify-content:center; gap:.55rem; padding:.62rem 1rem; min-height:48px; border:2px solid var(--ink); border-radius:.55rem; background:var(--yellow); color:var(--ink); box-shadow:4px 4px 0 var(--ink); text-decoration:none; font-weight:850; }
+    .button:hover { background:#fff0ac; }
+    .button:active { transform:translate(2px,2px); box-shadow:2px 2px 0 var(--ink); }
+    .lab-art { position:relative; display:grid; place-items:center; min-height:clamp(12rem,30vw,24rem); overflow:hidden; isolation:isolate; border:2px solid var(--ink); border-radius:1.6rem; background:var(--yellow); box-shadow:7px 7px 0 var(--ink); }
+    .lab-art::before { content:""; position:absolute; inset:0; z-index:-2; background:repeating-linear-gradient(90deg,transparent 0 23px,#6a4e2624 23px 24px),repeating-linear-gradient(0deg,transparent 0 23px,#6a4e2624 23px 24px); }
+    .orbit { position:absolute; z-index:-1; width:75%; height:38%; border:2px solid var(--ink); border-radius:50%; }
+    .orbit.one { transform:rotate(-28deg); }
+    .orbit.two { transform:rotate(28deg); }
+    .flask { display:grid; place-items:center; width:clamp(5.7rem,13vw,10rem); aspect-ratio:1; border:2px solid var(--ink); border-radius:1.5rem; transform:rotate(-10deg); background:var(--lavender); box-shadow:5px 5px 0 var(--ink); font-size:clamp(3rem,7vw,6rem); line-height:1; }
+    .sticker { position:absolute; display:grid; place-items:center; width:clamp(2.5rem,6.5vw,5rem); aspect-ratio:1; border:2px solid var(--ink); border-radius:50%; background:var(--mint); box-shadow:3px 3px 0 var(--ink); font-size:clamp(1.05rem,2.5vw,1.9rem); font-weight:900; }
+    .sticker.left { left:10%; top:18%; transform:rotate(-12deg); }
+    .sticker.right { right:10%; bottom:15%; background:white; transform:rotate(12deg); }
+    .spark { position:absolute; right:13%; top:10%; font-size:clamp(2rem,5vw,3.8rem); line-height:1; }
+    .section { padding-block:clamp(2.65rem,6vw,5rem); }
+    h2 { margin-bottom:1.3rem; font-size:clamp(1.65rem,3.5vw,2.65rem); letter-spacing:-.04em; }
+    h3 { font-size:1.18rem; }
+    .cards { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:1.15rem; }
+    .card { display:flex; flex-direction:column; align-items:flex-start; gap:.8rem; padding:1.25rem; border:2px solid var(--ink); border-radius:.9rem; background:white; box-shadow:4px 4px 0 var(--ink); }
+    .icon { display:grid; place-items:center; width:2.7rem; height:2.7rem; border:2px solid var(--ink); border-radius:.6rem; background:var(--mint); font-weight:900; font-size:1.15rem; }
+    .card:nth-child(2) .icon { background:var(--lavender); }
+    .card:nth-child(3) .icon { background:var(--yellow); }
+    .card p { color:#4b435c; }
+    .card a,.card details { margin-top:auto; }
+    .card a { display:inline-flex; align-items:center; min-height:44px; font-weight:800; }
+    summary { min-height:44px; padding:.55rem 0; cursor:pointer; color:var(--purple); font-weight:800; }
+    .reading { border-block:2px solid var(--ink); background:var(--mint); }
+    .reading .wrap { display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1.4rem; }
+    .reading h2 { margin-bottom:.45rem; }
+    .about p { max-width:55rem; color:#4b435c; }
+    footer { border-top:2px solid var(--ink); padding-block:1.05rem; background:var(--ink); color:white; font-size:.9rem; }
+    @media (max-width:49rem) { .hero-layout,.cards { grid-template-columns:1fr; } .lab-art { max-width:32rem; width:100%; } }
+    @media (prefers-reduced-motion:no-preference) { .button,.card { transition:box-shadow .16s ease,transform .16s ease; } .card:focus-within,.card:hover { transform:translate(-2px,-2px); box-shadow:6px 6px 0 var(--ink); } }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#main">本文へ移動</a>
+  <header>
+    <div class="wrap">
+      <p class="brand"><span aria-hidden="true">✦</span>AI実践ラボ</p>
+      <nav aria-label="ページ内メニュー"><a href="#experiments">実験テーマ</a><a href="#reading">発信を見る</a><a href="#about">ラボについて</a></nav>
+    </div>
+  </header>
+  <main id="main" tabindex="-1">
+    <section class="hero" aria-labelledby="headline">
+      <div class="wrap hero-layout">
+        <div>
+          <p class="product">AI実践ラボ</p>
+          <h1 id="headline">AIでちょっと、<span>試してみる。</span></h1>
+          <p class="lead">毎月の集計からアプリづくり、家族の暮らしまで。「これ、AIでどう変わる？」を試す実験ノートです。</p>
+          <a class="button" href="#experiments">実験テーマを見る <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="lab-art" aria-hidden="true">
+          <span class="orbit one"></span><span class="orbit two"></span>
+          <span class="sticker left">AI</span><span class="spark">✦</span>
+          <span class="flask">🧪</span><span class="sticker right">&lt;/&gt;</span>
+        </div>
+      </div>
+    </section>
+    <section id="experiments" class="section">
+      <div class="wrap">
+        <h2>実験テーマ</h2>
+        <div class="cards">
+          <article class="card"><span class="icon" aria-hidden="true">▦</span><h3>Excel・CSVの業務効率化</h3><p>毎月繰り返す集計作業を題材に、手順を見直し、ツールを作って検証しています。</p><a href="https://1076584g-stack.github.io/business-automation-site/">CSV自動集計ツールを見る</a></article>
+          <article class="card"><span class="icon" aria-hidden="true">&lt;/&gt;</span><h3>AIを使った開発</h3><p>アプリづくりや作業手順の改善に、AIをどう取り入れられるか試しています。</p><details><summary>何を試している？</summary><p>AIツールを使ったアプリ開発や、繰り返し作業の手順の見直しに取り組んでいます。</p></details></article>
+          <article class="card"><span class="icon" aria-hidden="true">⌂</span><h3>家族のためのAI活用</h3><p>日常生活のどんな場面でAIが役立つか、身近なところから試しています。</p></article>
+        </div>
+      </div>
+    </section>
+    <section id="reading" class="section reading">
+      <div class="wrap"><div><h2>発信を見る</h2><p>AI活用や開発の試行錯誤をnoteで発信しています。</p></div><a class="button" href="https://note.com/ai_army">noteの記事を読む <span aria-hidden="true">↗</span></a></div>
+    </section>
+    <section id="about" class="section about">
+      <div class="wrap"><h2>ラボについて</h2><p>AI実践ラボは、AI活用や業務効率化の取り組みを紹介する場所です。制作・検証中のテーマも扱います。</p></div>
+    </section>
+  </main>
+  <footer><div class="wrap">© AI実践ラボ</div></footer>
+</body>
+</html>
